@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="com.stylingandroid.vectordrawablepng.MainActivity">
+
+  <TextView
+    android:id="@+id/item1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:drawablePadding="8dp"
+    android:drawableTop="@drawable/ic_problem1"
+    android:gravity="center"
+    android:text="@string/problem_1"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_constraintLeft_creator="1"
+    tools:layout_constraintTop_creator="1" />
+
+  <TextView
+    android:id="@+id/item2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:drawablePadding="8dp"
+    android:drawableTop="@drawable/ic_problem2"
+    android:gravity="center"
+    android:text="@string/problem_2"
+    app:layout_constraintLeft_toRightOf="@id/item1"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_constraintLeft_creator="1"
+    tools:layout_constraintTop_creator="1" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:drawablePadding="8dp"
+    android:drawableTop="@drawable/ic_fixed"
+    android:gravity="center"
+    android:text="@string/fixed"
+    app:layout_constraintLeft_toRightOf="@id/item2"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_constraintLeft_creator="1"
+    tools:layout_constraintTop_creator="1" />
+
+</android.support.constraint.ConstraintLayout>
